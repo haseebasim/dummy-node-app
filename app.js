@@ -15,11 +15,10 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
-
 app.get("/", (req, res) => {
   res.send(data);
 });
 
-app.listen(3001, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log("listening on port 3001");
 });
