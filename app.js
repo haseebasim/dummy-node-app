@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send(data);
+  res.send('Github actions are working!!');
 });
 
 app.listen(process.env.PORT || 3001, () => {
