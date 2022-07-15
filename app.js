@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send('My node application.');
+  res.send('My updated node application.');
 });
 
 app.listen(8080, () => {
