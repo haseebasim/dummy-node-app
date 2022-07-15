@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send('My updated node application hosted on ebs.');
+  res.send('My updated node app.');
 });
 
 app.listen(8080, () => {
